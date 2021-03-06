@@ -8,28 +8,32 @@
 
 ## Folders Structure:
 
-- style.css ( global )
+- style.css (global)
 - assets/img
-- shared/ ( js shared files ex: utils.js, date.js, )
+- shared/ (js shared files ex: utils.js, date.js)
 - pages 
-  - home
+  - home [Damian Ceomag]
     - home.html
-    - home.js ( optional )
-    - home.css ( optional )
-  - search
+    - home.js
+    - home.css
+  - search [Ciprian Anton	Neamțu]
     - search.html
     - search.js
-  - movie_details
+    - search.css
+  - movie_details [ciobeacristian@outlook.it]
     - movie_details.html
     - movie_details.js
-  - login_register
+    - movie_details.css
+  - login_register [Raluca Radutac]
     - login_register.html
     - login_register.js
-  - add_movie
+    - login_register.css
+  - add_movie [Răzvan Gheorghe Prăjanu]
     - add_movie.html
     - add_movie.js
-  - edit_movie
+    - add_movie.css
+  - edit_movie [Răzvan Gheorghe	Prăjanu]
     - edit_movie.html
     - edit_movie.js
-
-*The Homepage was developed by Damian Ceomag
+    - add_movie.css
+  - delete_movie [Răzvan Gheorghe	Prăjanu]
