@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel Movies - Home</title>
+    <link rel="stylesheet" href="./../../style.css" />
+    <link rel="stylesheet" href="./../add_movie/add_movie.css" />
+
+    <!-- FONT AWESOME: -->
+    <script
+      src="https://kit.fontawesome.com/433568d708.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <!--  -->
+
+  <body>
+    <header>
+      <img src="./../../assets/pictures/marvel-logo.png" alt="logo" />
+      <!-- Marvel Movies logo -->
+
+      <ul class="header-buttons">
+        <li>
+          <a href="./../search/search.html"><i class="fas fa-search"></i></a>
+        </li>
+        <!-- search icon from fontawesome and link to search page -->
+        <li>
+          <a href="./../home/home.html"><i class="fas fa-home"></i></a>
+        </li>
+        <!-- home icon from fontawesome and link to home page -->
+        <li><a href="./../login_register/login.html">Login/Register</a></li>
+        <!-- link Login/Register page -->
+      </ul>
+    </header>
+
+    <div class="content top" id="top">
+      <div><h1>Description:</h1></div>
+      <div class="content">
+        <div class="contents">
+          <div class="test">
+            Title: <input type="text" name="" id="title" class="test2" />
+          </div>
+          <div class="test">
+            Type: <input type="text" name="" id="type" class="test2" />
+          </div>
+          <div class="test">
+            Genre: <input type="text" name="" id="genre" class="test2" />
+          </div>
+        </div>
+        <div class="contents">
+          <div class="test">
+            Year: <input type="text" name="" id="year" class="test2" />
+          </div>
+          <div class="test">
+            Runtime: <input type="text" name="" id="runtime" class="test2" />
+          </div>
+          <div class="test">
+            Poster: <input type="url" name="" id="poster" class="test2" />
+          </div>
+        </div>
+        <div class="contents">
+          <div class="test">
+            Country: <input type="text" name="" id="country" class="test2" />
+          </div>
+          <div class="test">
+            Language: <input type="text" name="" id="language" class="test2" />
+          </div>
+        </div>
+        <div class="contents">
+          <div class="test">
+            imdbRating:
+            <input type="text" name="" id="imdbRating" class="test2" />
+          </div>
+          <div class="test">
+            imdbVotes:
+            <input type="text" name="" id="imdbVotes" class="test2" />
+          </div>
+          <div class="test">
+            imdbID: <input type="text" name="" id="imdbID" class="test2" />
+          </div>
+        </div>
+      </div>
+      <div class="button">
+        <button id="update"><strong>UPDATE</strong></button>
+        <button id="delete"><strong>DELETE</strong></button>
+      </div>
+      <button id="login">Login</button>
+    </div>
+
+    <footer>
+      <p>A <span>&nbsp;Marvel</span>ous&nbsp;Team Production &#169;</p>
+    </footer>
+
+    <script src="edit_movie.js"></script>
+  </body>
+</html>

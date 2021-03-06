@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./search.css">
+    <link rel="stylesheet" href="../../style.css">
+    <title>Marvel Movies - Search</title>
+    <!-- FONT AWESOME: -->
+    <script src="https://kit.fontawesome.com/433568d708.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="../home/home.html"><img src="./../../assets/pictures/marvel-logo.png" alt="logo"></a>
+        <!-- Marvel Movies logo -->
+
+        <ul class="header-buttons">
+            <li><a href="./../add_movie/add_movie.html" id="addMovieButton">
+                    <p>Add Movie</p>
+                </a></li>
+            <li><a href="./../search/search.html"><i class="fas fa-search"></i></a></li>
+            <!-- search icon from fontawesome and link to search page -->
+            <li><a href="./../home/home.html"><i class="fas fa-home"></i></a></li>
+            <!-- home icon from fontawesome and link to home page -->
+            <li><a href="./../login_register/login.html">Login/Register</a></li> <!-- link Login/Register page -->
+        </ul>
+    </header>
+    <!-- Main Section -->
+    <main id="main">
+        <!-- Filter Section -->
+        <section id="filter">
+            <div class="inputs">
+                <label for="title">Title</label>
+                <input type="text" id="title">
+            </div>
+            <div class="inputs">
+                <label for="year">Year</label>
+                <input type="text" id="year">
+            </div>
+            <div class="inputs">
+                <label for="runtime">Runtime</label>
+                <input type="text" id="runtime">
+            </div>
+            <div class="inputs">
+                <label for="genre">Genre</label>
+                <input type="text" id="genre">
+            </div>
+            <div class="inputs">
+                <label for="language">Language</label>
+                <input type="text" id="language">
+            </div>
+            <div class="inputs">
+                <label for="country">Country</label>
+                <input type="text" id="country">
+            </div>
+            <div class="inputs">
+                <label for="imdbRating">imdbRating</label>
+                <input type="text" id="imdbRating">
+            </div>
+            <div class="inputs">
+                <label for="imdbVotes">imdbVotes</label>
+                <input type="text" id="imdbVotes">
+            </div>
+            <div class="inputs">
+                <label for="imdbID">imdbID</label>
+                <input type="text" id="imdbID">
+            </div>
+            <div class="inputs">
+                <label for="type">Type</label>
+                <input type="text" id="type">
+            </div>
+            <div id="search-button">
+                <button id="search">Search</button>
+            </div>
+        </section> <!-- Filter Section END -->
+
+        <!-- Content Section - Here we`ll see the filter results -->
+        <section id="moviesList">
+
+        </section> <!-- Content Section END -->
+
+    </main> <!-- Main Section END  -->
+
+    <!-- Next Page Section -->
+    <section id="nextPage">
+        <div>
+            <button id="back">Back</button>
+        </div>
+        <div>
+            <button id="next">Next</button>
+        </div>
+    </section><!-- Next Page Section END -->
+    <script src="./search.js"></script>
+    <script src="../../shared/utils.js"></script>
+    <footer>
+        <p>A <span>&nbsp;Marvel</span>ous&nbsp;Team Production &#169;</p>
+    </footer>
+</body>
+
+
+</html>

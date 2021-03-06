@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Movies - Home</title>
+
+    <link rel="icon" href="./../../assets/pictures/marvelico.png">
+
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./../../style.css">
+
+    <!-- FONT AWESOME: -->
+    <script src="https://kit.fontawesome.com/433568d708.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="./home.html"><img src="./../../assets/pictures/marvel-logo.png" alt="logo"></a>
+
+        <ul class="header-buttons">
+            <a href="./../add_movie/add_movie.html" id="addMovieButton">
+                <p>Add Movie</p>
+            </a>
+
+            <li><a href="./../search/search.html"><i class="fas fa-search"></i></a></li>
+            <!-- search icon from fontawesome and link to search page -->
+            <li><a href="./../home/home.html"><i class="fas fa-home"></i></a></li>
+            <!-- home icon from fontawesome and link to home page -->
+            <li><a href="./../login_register/login.html">Login/Register</a></li> <!-- link Login/Register page -->
+        </ul>
+    </header>
+
+    <section id="slider">
+
+        <div class="slideshow-container">
+            <p id="sliderTitle">POPULAR TODAY</p>
+
+            <div class="mySlides">
+                <img src="./../../assets/pictures/banner1.jpg">
+                <div>
+                    <p>Iron Man 3 (2013)</p>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <img src="./../../assets/pictures/banner2.jpg">
+                <div>
+                    <p>Avengers: Age of Ultron (2015)</p>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <img src="./../../assets/pictures/banner3.jpg">
+                <div>
+                    <p>Thor: Ragnarok (2017)</p>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <img src="./../../assets/pictures/banner4.jpg">
+                <div>
+                    <p>Captain America: The Winter Soldier (2014)</p>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <img src="./../../assets/pictures/banner5.jpg">
+                <div>
+                    <p>Guardians of the Galaxy Vol. 2 (2017)</p>
+                </div>
+            </div>
+
+            <div id="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Movies List: -->
+
+    <!-- this will be populated dynamically from JS -->
+    <section id="allMovieSection">
+        <p id="allMoviesTitle">ALL MOVIES</p>
+        <div id="movieContainer">
+            <div id="leftArrow"><i class="fas fa-chevron-left"></i></div>
+
+            <div id="moviesList"></div>
+
+            <div id="rightArrow"><i class="fas fa-chevron-right"></i></div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>A <span>&nbsp;Marvel</span>ous&nbsp;Team Production &#169;</p>
+    </footer>
+
+    <script src="./../../shared/utils.js"></script>
+    <script src="./home.js"></script>
+</body>
+
+</html>

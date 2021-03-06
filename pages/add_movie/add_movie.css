@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  color: rgba(199, 4, 4, 0.925);
+}
+h1 {
+  margin: 0;
+}
+div {
+  margin: 20px;
+  background-color: #181b2d;
+}
+.container1,
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #2a2e43;
+}
+.contents {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2a2e43;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #2a2e43;
+}
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2a2e43;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: #2a2e43;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+#content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2a2e43;
+}
+.top {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#top {
+  background-color: #181b2d;
+}
+.test2 {
+  border-radius: 16px;
+}
+.test {
+  border-radius: 16px;
+}
+#submit {
+  border: 0px;
+  background-color: rgba(199, 4, 4);
+  width: 200px;
+  height: 32px;
+  border-radius: 45%;
+}
+#update {
+  border: 0px;
+  background-color: rgb(3, 231, 3);
+  width: 200px;
+  height: 32px;
+  border-radius: 45%;
+}
+#delete {
+  border: 0px;
+  background-color: rgb(255, 0, 0);
+  width: 200px;
+  height: 32px;
+  border-radius: 45%;
+}
+.contentD {
+  display: flex;
+  flex-direction: row;
+  background-color: #2a2e43;
+}
+.contentsD {
+  display: flex;
+  flex-direction: column;
+}
+.element {
+  display: flex;
+  margin: 0px;
+}
+#rating {
+  display: flex;
+}
+#star {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color: gold;
+}
+#search {
+  border: 0px;
+  background-color: rgb(13, 30, 124);
+  width: 200px;
+  height: 32px;
+  border-radius: 45%;
+}
+#searchD {
+  padding-left: 50px;
+}
+input {
+  text-align: center;
+}
+#edit {
+  border: 0px;
+  background-color: rgb(13, 30, 124);
+  width: 200px;
+  height: 32px;
+  border-radius: 45%;
+}

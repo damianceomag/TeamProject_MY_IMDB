@@ -1,0 +1,110 @@
+/* 
+GENERAL STYLE
+*/
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(./assets/font/Ubuntu-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #181B2D;
+    font-family: Ubuntu;
+}
+
+/* 
+HEADER STYLE 
+*/
+
+header {
+    background-color: #2A2E43;
+    margin: 20px 100px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+img[alt="logo"] {
+    max-height: 50px;
+    margin: 10px 10px;
+    padding-left: 30px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+#addMovieButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    padding: 5px;
+
+    border: 1px solid white;
+    border-radius: 5px;
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#addMovieButton:hover {
+    background-color: #EC1D24;
+}
+
+#addMovieButton p {
+    margin: 0;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right: 30px;
+}
+
+.header-buttons li {
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 0px 10px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+}
+
+/* 
+FOOTER STYLE 
+*/
+
+footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 100px;
+}
+
+footer p {
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+
+    color: white;
+}
+
+footer span {
+    color: #EC1D24;
+}
+
+a:link {
+  text-decoration: none;
+}

@@ -1,0 +1,194 @@
+/* 
+SLIDER STYLES 
+*/
+* {
+    scroll-behavior: smooth;
+}
+
+#sliderTitle {
+    position: absolute;
+    margin: 5px 40px;
+
+    color: white;
+    font-size: 3vw;
+}
+.slideshow-container {
+    position: relative;
+    margin: 50px 100px;
+  }
+
+.slideshow-container img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.mySlides div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 10px;
+
+    display: flex;
+    background-color: black;
+    opacity: 0.8;
+}
+.mySlides p {
+    margin: 3vh;
+
+    color: white;
+    font-size: 3vh;
+}
+
+  /* The dots/bullets/indicators */
+#dots {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 4px;
+    background-color: rgb(90, 90, 90);
+    border-radius: 50%; 
+}
+
+.dot:hover {
+    color: black;
+}
+  
+.active {
+    background-color: #ffffff;
+}
+
+/* 
+ALL MOVIES SECTION STYLES 
+*/
+
+#allMovieSection {
+    margin: 50px 100px;
+}
+
+#allMoviesTitle {
+    margin: 5px 40px;
+
+    color: white;
+    font-size: 3vw;
+}
+
+#movieContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#moviesList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow: hidden;
+
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    background-color: #2A2E43;
+}
+
+.movie-poster {
+    height: 50vh;
+    width: 25vh;
+    padding: 0 5vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+
+    overflow: hidden;
+}
+
+.movie-poster:hover {
+    background-color: #181B2D;
+}
+
+.movie-picture {
+    max-width: 25vh;
+    /* display: block; */
+}
+
+.movie-picture:hover {
+    max-width: 50vh;
+    transition: 0.1s;
+}
+
+.movie-poster p {
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-title {
+    color: white;
+    display: inline;
+}
+
+.movie-year {
+    color: grey;
+    display: inline;
+}
+
+#leftArrow {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 4%;
+
+    cursor: pointer;   
+    background-color: black;
+    opacity: 0.8;
+    
+}
+
+#rightArrow {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 4%;
+
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.fa-chevron-left,.fa-chevron-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    cursor: pointer;
+    font-size: 2vw;
+}
+
+.fa-chevron-left:hover,.fa-chevron-right:hover {
+    font-size: 3vw;
+    transition: 0.1s;
+  }
+
+  #leftArrow:hover,#rightArrow:hover {
+      width: 6%;
+  }

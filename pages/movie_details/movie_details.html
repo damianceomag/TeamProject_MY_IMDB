@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel Movies - Home</title>
+    <link rel="stylesheet" href="./../../style.css" />
+    <link rel="stylesheet" href="./../add_movie/add_movie.css" />
+    <script
+      src="https://kit.fontawesome.com/c633f2d147.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- FONT AWESOME: -->
+    <script
+      src="https://kit.fontawesome.com/433568d708.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <!--  -->
+
+  <body>
+    <header>
+      <img src="./../../assets/pictures/marvel-logo.png" alt="logo" />
+      <!-- Marvel Movies logo -->
+
+      <ul class="header-buttons">
+        <li>
+          <a href="./../search/search.html"><i class="fas fa-search"></i></a>
+        </li>
+        <!-- search icon from fontawesome and link to search page -->
+        <li>
+          <a href="./../home/home.html"><i class="fas fa-home"></i></a>
+        </li>
+        <!-- home icon from fontawesome and link to home page -->
+        <li><a href="./../login_register/login.html">Login/Register</a></li>
+        <!-- link Login/Register page -->
+      </ul>
+    </header>
+
+    <div class="content top" id="top">
+      <div><h1>Movie details:</h1></div>
+      <div class="contentD">
+        <div class="contentsD">
+          <div><img src="" alt="" id="moviePoster" /></div>
+          <div id="rating">
+            <div id="star"><i class="far fa-star"></i></div>
+            <div class="rating"><h1>Rating:</h1></div>
+            <div class="rating"><h1 id="imdbRating"></h1></div>
+          </div>
+        </div>
+        <div class="contentsD">
+          <div><h1 id="movieTitle"></h1></div>
+            <div class="element">
+                <div class="sElement">Year:</div>
+                <div class="sElement" id="movieYear"></div>
+            </div>
+            <div class="element">
+                <div class="sElement">Runtime:</div>
+                <div class="sElement" id="movieRuntime"></div>
+            </div>
+            <div class="element">
+                <div class="sElement">Genre:</div>
+                <div class="sElement" id="movieGenre"></div>
+            </div>
+            <div class="element">
+                <div class="sElement">Plot:</div>
+                <div class="sElement" id="description"> </div>
+            </div>
+            <div class="element">
+                <div class="sElement">Votes:</div>
+                <div class="sElement" id="imdbVotes"></div>
+            </div>
+            <div class="element">
+                <div class="sElement">Actors:</div>
+                <div class="sElement" id="movieActors"></div>
+            </div>
+            <div class="element"><div id="searchD">
+              <button id="search">Search Again</button><button id="edit">Edit</button></div>
+  </div>
+      </div>
+    </div>
+    <button id="login">Login</button>
+    <footer>
+      <p>A <span>&nbsp;Marvel</span>ous&nbsp;Team Production &#169;</p>
+    </footer>
+
+    <script src="./movie_details.js"></script>
+  </body>
+</html>
